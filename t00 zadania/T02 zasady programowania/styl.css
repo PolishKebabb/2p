@@ -1,7 +1,28 @@
 body {
     margin: 50px;
+    background-color: aquamarine;
+    color: black;
+}
+h2{
+    width: 360px;
+    background-color: darkslateblue;
+    color: white;
+    border: 3px solid blue;
+}
+#naglowek{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 3px solid darkslateblue;
 }
 
-#naglowek{
+table, tr, td{
+    padding:30px;
+    border: 2px solid black;
+    background-color: darkslateblue;
+    color: white;
+}
+
+td{
     text-align: center;
 }
