@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie 02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>zadanie 02</h1>
+  <h2>autor: Oskar Szuflita 2p_2</h2>
+  <hr>
+  <p>Napisz program, który dla czterech liczb rzeczywistych oblicza i wyświetla ich średnią arytmetyczną. WYnik wyświetl w dwóch postaciach. Bez zaokrąglenia oraz z zaokrągleniem do trzech miejsc po przecinku.</p>
+</header>
+
+<section>
+  <script>
+    let a = prompt ("podaj liczbe a: ");
+    a = parseInt(a);
+    let b = prompt ("podaj liczbe b: ");
+    b = parseInt(b);
+    let c = prompt ("podaj liczbe c: ");
+    c = parseInt(c);
+    let d = prompt ("podaj liczbe d: ");
+    d = parseInt(d);
+
+    let suma = a+b+c+d;
+    let srednia = suma/4;
+    document.write("a: "+a+"<br> b: "+b+"<br> c: "+c+"<br> d: "+d+"<br>")
+    document.write("<b>Średnia: "+srednia+"</b><br>");
+    document.write("<b>Średnia: "+srednia.toFixed(2)+"</b>");
+  </script>
+</section>
+
+</body>
+</html>
