@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+    color: antiquewhite;
+    margin: 30px;
+    font-family: Arial;
+}
+
+header  {
+    text-align: center;
+}
+
+article {
+    background-color: darkgrey;
+    border: 3px solid darkgrey;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+hr{
+    text-align: center;
+    width: 600px;
+}
