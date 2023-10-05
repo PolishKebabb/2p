@@ -18,4 +18,4 @@ btn.addEventListener('click', function() {
         '<br>Iloraz = '+iloraz.toFixed(2);
 
 
-})
+});
