@@ -1,0 +1,11 @@
+body{
+    background-color: grey;
+    color: antiquewhite;
+    margin: 30px;
+    font-family: Arial;
+}
+
+#wynik{
+    padding-top: 50px;
+    color: bisque;
+}

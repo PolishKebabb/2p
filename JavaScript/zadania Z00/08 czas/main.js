@@ -3,12 +3,15 @@ const wynik = document.querySelector('#wynik');
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', function() {
-        let a = parseFloat(liczba1.value);
-        let b = a/3600;
-        let c = b%a;
+        let x = parseInt(liczba1.value)
+        let a = Math.floor(x / 3600);
+        let b = x % 3600;
+        let c = Math.floor (b / 60) ;
+        let d = b % 60;
 
-    wynik.innerHTML = ` ${b.toFixed()} godzin <br>
+    wynik.innerHTML = ` ${a} godzin <br>
                         ${c} minut <br>
-                        ${a}`
+                        ${d} sekund <br>
+                        `
 
 })
