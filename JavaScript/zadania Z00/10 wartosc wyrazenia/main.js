@@ -5,8 +5,8 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', function() {
         let x = parseFloat(liczba1.value);
         let b = Math.pow(x,2);
-        let c = b
+        let c = b/Math.pow(1+x, 2)
 
 
-    wynik.innerHTML = `Dlugosc w mm = ${b}`
+    wynik.innerHTML = `wartosc wyrazenia: ${c}`
 })
