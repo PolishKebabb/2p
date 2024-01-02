@@ -16,4 +16,5 @@ wartość bezwgledna z ${a} = ${wartoscBezwzgledna1} (pierwszy sposob)
 Zadanie t22_2 <br><br>
 x = ${x} <br>
 y = ${y} <br>
+x^y = ${x}^${y} = ${potega}<br>
 `
