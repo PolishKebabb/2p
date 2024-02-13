@@ -14,7 +14,9 @@
         this.punktPocz = punktPocz;
         this.punktKonc = punktKonc;
         this.dlugoscOdcinka = function (){
-
+            let wynik = punktKonc - punktPocz;
+            wynik = parseInt(wynik);
+            document.write("Dlugosc odcinka wynosi: " + wynik.Math.abs);
         }
         this.info = function (){
             document.write("punkt poczatkowy: " + punktPocz + "<br>")
@@ -22,6 +24,8 @@
         }
     }
 
-    var punkt1 = new Punkt("Punkt pierwszy")
+    var punkt1 = new Punkt("Punkt pierwszy", 3, 5);
+    var odcinek1 = new Odcinek(punkt1.x, punkt1.y);
 
-
+    punkt1.info();
+    odcinek1.dlugoscOdcinka();
