@@ -37,12 +37,14 @@ for (let i = 0; i < tab.length; i++) {
 }
 
 console.log(liczbawWierszu);
-console.log(ile_b);
 
-let  najwieksza_liczbaB = 0;
-for (let i = 0; i < liczbawWierszu.length; i++) {
+let  najwieksza_liczbaB = 1;
+let indexNajwieksza_liczbaB = 0;
+
+for (let i = 1; i < 7; i++) {
     if (liczbawWierszu[i] > najwieksza_liczbaB) {
         najwieksza_liczbaB = liczbawWierszu[i];
+        indexNajwieksza_liczbaB = i;
     }
 }
-console.log(najwieksza_liczbaB);
+document.write("<br>Najwieksza liczba b znajduje sie w wierszu: " + indexNajwieksza_liczbaB);
