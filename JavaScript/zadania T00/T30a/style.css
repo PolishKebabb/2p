@@ -1,0 +1,9 @@
+body {
+    background-image:linear-gradient(blue, purple);
+    height: 100vh;
+}
+
+img {
+    border: 1px solid white;
+    height: 80%;
+}
