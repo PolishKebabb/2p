@@ -6,7 +6,7 @@ function createFrame(width, height) {
         if (i === 0 || i === height - 1) {
             frame += " | ".repeat(width) + "\n";
         } else {
-            frame += "|" + " . ".repeat(width - 2) + "|\n";
+            frame += "|" + " . ".repeat(width - 4) + "|\n";
         }
     }
     return frame;
