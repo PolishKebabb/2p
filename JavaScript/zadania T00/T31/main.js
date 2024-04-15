@@ -1,16 +1,16 @@
 const diw = document.querySelector("#data")
 
-diw.addEventListener('mouseover', function (){
-    let data = new Date();
-    diw.innerHTML = `${data.getDate()}.${data.getMonth()}.${data.getFullYear()}`;
-})
-
+diw.addEventListener("mouseover", () => {
+    if (!diw.textContent) {
+        diw.textContent = "Data już była ;)";
+    } else {
+        const data = new Date();
+        diw.textContent = data;
+    }
+});
 diw.addEventListener('mouseout', function(){
     diw.innerHTML = ``
     diw.removeEventListener();
 })
 
 
-diw.addEventListener('mouseover', function (){
-    diw.innerHTML = `Data już była ;)`
-})
