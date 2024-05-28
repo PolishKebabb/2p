@@ -1,0 +1,7 @@
+CREATE USER 'Agnieszka'@'localhost' IDENTIFIED BY 'haslo4';
+
+SELECT AVG(rocznik) AS Srednia_Rocznikow FROM samochody WHERE marka = 'opel';
+
+SELECT klienci.imie, samochody.marka FROM klienci JOIN wypozyczenia ON klienci.id = wypozyczenia.id JOIN samochody ON samochody.id = wypozyczenia.id;
+
+ALTER TABLE `klasa` DROP COLUMN cena
