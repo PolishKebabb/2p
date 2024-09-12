@@ -1,6 +1,7 @@
 * {
     font-family: Cambria;
     text-align: center;
+    margin: 0;
 }
 
 #baner, #stopka{
@@ -12,7 +13,6 @@
 
 #blok-menu {
     background-color: rgb(173, 20, 87);
-    width: 40%;
     height: 322px;
     text-align: left;
 }
@@ -23,13 +23,20 @@
     width: 60%;
     height: 322px;
     text-align: left;
+    float: left;
 }
 
 #blok-prawy {
     background-color: rgb(173, 20, 87);
     width: 40%;
     height: 322px;
+    float: left;
 }
+
+#stopka {
+    clear: both;
+}
+
 
 #samochod {
     margin: 40px;
@@ -46,6 +53,10 @@ a {
     margin-left: 50px;
     margin-right: 50px;
     color: YellowGreen;
+}
+
+h2 {
+    margin: 50px;
 }
 
 table, td{
